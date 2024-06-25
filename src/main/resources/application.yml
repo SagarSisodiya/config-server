@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: git
+    
+server:
+  port: 8071
