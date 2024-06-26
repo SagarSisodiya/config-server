@@ -4,6 +4,8 @@ spring:
       server:
         git:
           uri: https://github.com/SagarSisodiya/service-configuration-prod.git
+          username: replace_with_secret_token
+          password:
           default-label: main
           timeout: 5
           clone-on-start: true
